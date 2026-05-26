@@ -29,3 +29,4 @@ A small account management system built with Vue 3, Vite, TypeScript, Pinia, Vue
 
 ```bash
 npm install
+npm run dev
