@@ -139,14 +139,14 @@ const submitForm = () => {
       <footer class="mt-2 flex items-center justify-end gap-4">
         <button
           type="button"
-          class="flex min-h-12 items-center justify-center rounded-xl bg-slate-100 px-6 font-semibold text-slate-700 hover:bg-slate-200"
+          class="flex min-h-12 items-center justify-center rounded-xl bg-slate-100 px-6 font-semibold text-slate-700 hover:bg-slate-200 cursor-pointer"
           @click="$emit('close')"
         >
           取消
         </button>
         <button
           type="submit"
-          class="flex min-h-12 items-center justify-center rounded-xl bg-[#5236f6] px-6 font-semibold text-white hover:bg-[#4528ee] disabled:cursor-not-allowed disabled:opacity-65"
+          class="flex min-h-12 items-center justify-center rounded-xl bg-[#5236f6] px-6 font-semibold text-white cursor-pointer hover:bg-[#4528ee] disabled:cursor-not-allowed disabled:opacity-65"
           :disabled="saving"
         >
           {{ saving ? '儲存中' : '儲存' }}

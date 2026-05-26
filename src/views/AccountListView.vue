@@ -50,7 +50,7 @@ const submitForm = async (payload: CreateAccountPayload) => {
     }
 
     closeModal()
-    
+
     await accountStore.fetchAccounts()
   } finally {
     saving.value = false
@@ -138,7 +138,7 @@ onMounted(() => {
         </label>
 
         <button
-          class="flex min-h-14 w-full items-center justify-center gap-2.5 rounded-xl bg-[#5236f6] px-6 font-semibold text-white hover:bg-[#4528ee] lg:w-auto"
+          class="flex min-h-14 w-full items-center justify-center gap-2.5 rounded-xl bg-[#5236f6] px-6 font-semibold text-white hover:bg-[#4528ee] lg:w-auto cursor-pointer"
           type="button"
           @click="openCreateModal"
         >

@@ -121,7 +121,7 @@ const handleSubmit = async () => {
       </p>
 
       <button
-        class="flex min-h-14 w-full items-center justify-center gap-3 rounded-xl bg-[#5236f6] text-xl font-semibold text-white transition hover:-translate-y-px hover:bg-[#4528ee] disabled:cursor-not-allowed disabled:opacity-65"
+        class="flex min-h-14 w-full items-center justify-center gap-3 rounded-xl bg-[#5236f6] text-xl font-semibold text-white transition hover:-translate-y-px hover:bg-[#4528ee] cursor-pointer disabled:cursor-not-allowed disabled:opacity-65"
         :disabled="!canSubmit"
         type="submit"
       >

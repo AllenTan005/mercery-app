@@ -101,7 +101,7 @@ const statusLabelMap: Record<AccountStatus, string> = {
     <div class="grid grid-cols-2 gap-3">
       <button
         type="button"
-        class="flex min-h-14 min-w-0 items-center justify-center gap-2.5 rounded-xl bg-indigo-50 px-3 text-lg font-semibold text-[#5236f6] hover:bg-indigo-100"
+        class="flex min-h-14 min-w-0 items-center justify-center gap-2.5 rounded-xl bg-indigo-50 px-3 text-lg font-semibold text-[#5236f6] hover:bg-indigo-100 cursor-pointer"
         @click="$emit('edit', account)"
       >
         <svg
@@ -116,7 +116,8 @@ const statusLabelMap: Record<AccountStatus, string> = {
       </button>
       <button
         type="button"
-        class="flex min-h-14 min-w-0 items-center justify-center gap-2.5 rounded-xl bg-rose-50 px-3 text-lg font-semibold text-red-500 hover:bg-rose-100"
+        class="flex min-h-14 min-w-0 items-center justify-center gap-2.5 rounded-xl bg-rose-50 px-3 
+        text-lg font-semibold text-red-500 hover:bg-rose-100 cursor-pointer"
         @click="$emit('delete', account)"
       >
         <svg
